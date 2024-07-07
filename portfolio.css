@@ -101,20 +101,27 @@ header{
 .secondary-bg{
      background-color: #F3FAFF
 }
+.center{
+     text-align: center;
+}
 /* main styles */
 main{
      max-width:1140px;
      margin: 0 auto;
      
 }
+main section{
+     margin-top: 130px;
+     margin-bottom: 130px;
+}
 
 
-/* about styles section */ 
+/* styling about  section */ 
 .about{
      border-radius: 10px;
      padding: 130px 150px;
-     margin-top: 120px;
-     text-align: center;
+     
+  text-align: center;
 
 }
 .item-description{
@@ -124,4 +131,17 @@ main{
      display: flex;
      justify-content: space-around;
      margin-top: 10px;
+}
+
+/* skill section style */
+.skill-container{
+     display: flex;
+     gap: 24px;
+     
+}
+
+.skill{
+     padding: 30px;
+     border-radius: 5px;
+     box-shadow: 0 6px 50px 0 rgba(0,0,0,.06);
 }
