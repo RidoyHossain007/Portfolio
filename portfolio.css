@@ -182,6 +182,15 @@ footer{
      gap: 100px;
 
 }
+.icom_img{
+     
+     display: flex;
+     gap: 10px;
+     margin: 0 10px;
+}
+.icom_img a{
+     list-style: none;
+}
 .footer-column{
      width: 50%;
 }
